@@ -1,7 +1,7 @@
 /**
  * @description get type of `obj`.
- * @param {obj} fn The functionto throttle.
- * @return {string}
+ * @param {Any} obj The variable to be judge.
+ * @return {String}
  * 
  * @author yuhgi
  * @version 0.0.1
@@ -25,6 +25,6 @@ const TYPE_MAP = {
     "[object WeakMap]":"weakmap",
     "[object Symbol]":"symbol",
 };
-export function type(obj){
+export default function(obj){
     return TYPE_MAP[Object.prototype.toString.call(obj)] || "unknown";
 }
