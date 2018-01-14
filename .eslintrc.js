@@ -25,7 +25,7 @@ module.exports = {
         ],
         "quotes": [
             "warn",
-            "single"//字符串使用双引号
+            "double"//字符串使用双引号
         ],
         "semi": [
             "error",
