@@ -19,6 +19,7 @@ const TYPE_MAP = {
     "[object RegExp]":"regexp",
     "[object Date]":"date",
     "[object JSON]":"json",
+    "[object Arguments]":"arguments",
     "[object Set]":"set",
     "[object WeakSet]":"weakset",
     "[object Map]":"map",
