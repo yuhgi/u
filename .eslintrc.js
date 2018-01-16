@@ -8,6 +8,7 @@ module.exports = {
         "ecmaVersion": 7,
         "sourceType":"module"
     },
+    "plugins":["jasmine"],
     "globals": {
         "window": false
     },
